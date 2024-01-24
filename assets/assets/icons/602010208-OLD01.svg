@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="water-tap-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C9BC2D;}
+	.st1{fill:none;stroke:#938C34;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<path id="secondary" class="st0" d="M100,500v100c0,18.4,14.9,33.3,33.3,33.3H200c18.4,0,33.3-14.9,33.3-33.3v-66.7
+	c0-18.4,14.9-33.3,33.3-33.3H700V366.7H554c-12.7,0.1-24.3-7-30-18.3l-14.7-30c-5.7-11.3-17.3-18.4-30-18.3h-92
+	c-12.7-0.1-24.3,7-30,18.3l-14.7,30c-5.7,11.3-17.3,18.4-30,18.3h-79.3C159.7,366.7,100,426.4,100,500z"/>
+<path id="primary" class="st1" d="M333.3,166.7h200 M433.3,294.7v-128 M700,566.7V300 M100,500v100c0,18.4,14.9,33.3,33.3,33.3H200
+	c18.4,0,33.3-14.9,33.3-33.3v-66.7c0-18.4,14.9-33.3,33.3-33.3H700V366.7H554c-12.7,0.1-24.3-7-30-18.3l-14.7-30
+	c-5.7-11.3-17.3-18.4-30-18.3h-92c-12.7-0.1-24.3,7-30,18.3l-14.7,30c-5.7,11.3-17.3,18.4-30,18.3h-79.3
+	C159.7,366.7,100,426.4,100,500z"/>
+</svg>

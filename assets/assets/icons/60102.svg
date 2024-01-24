@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16" version="1.0">
+    <g transform="translate(0 -4.86)">
+        <path id="a" style="stroke:#232323;stroke-width:.64502;fill:#aad500" d="m.941 10.633 5.918 3.869 8.569-3.361-3.882-2.093L.941 10.633z"/>
+        <use id="b" xlink:href="#a" transform="translate(0 -1.15)" height="16" width="16" y="0" x="0"/>
+        <use id="c" xlink:href="#b" transform="translate(0 -1.293)" height="16" width="16" y="0" x="0"/>
+        <use xlink:href="#c" transform="translate(0 -1.221)" height="16" width="16"/>
+        <path style="stroke:#232323;stroke-width:.85339;fill:#ddd113" d="m6.461 6.607 1.826-.331L11.86 8.57l.014 3.866-1.81.504-.03-3.679-3.574-2.654z"/>
+    </g>
+    <g transform="translate(-.047 -3.093)">
+        <path id="d" style="stroke:#ffa900;stroke-width:1.2;fill:#ffe200" d="M7.488 14.628c0 .706-1.551 1.28-3.465 1.28s-3.465-.574-3.465-1.28c0-.706 1.552-1.28 3.465-1.28s3.465.574 3.465 1.28z" transform="translate(.419 2.163)"/>
+        <use id="e" xlink:href="#d" transform="translate(0 -2)" height="16" width="16" y="0" x="0"/>
+        <use id="f" xlink:href="#e" transform="translate(0 -2)" height="16" width="16" y="0" x="0"/>
+    </g>
+    <g transform="translate(-.233 -5.93)">
+        <use id="g" xlink:href="#f" transform="matrix(.5595 0 0 .69059 11.05 7.19)" height="16" width="16" y="0" x="0"/>
+        <use id="h" xlink:href="#g" transform="translate(0 -1.395)" height="16" width="16" y="0" x="0"/>
+        <use xlink:href="#h" transform="translate(0 -1.581)" height="16" width="16"/>
+    </g>
+</svg>
