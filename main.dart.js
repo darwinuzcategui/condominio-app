@@ -52041,7 +52041,7 @@ p=4
 f=t.N
 m=A.aG(["email",a2,"password",a4],f,f)
 s=7
-return A.S(n.a.ve("POST",a0,A.aG(["Content-Type","application/json","Access-Control-Allow-Methods","*"],f,f),B.a5.Z3(m,null),null),$async$zP)
+return A.S(n.a.ve("POST",a0,A.aG(["Content-Type","application/json"],f,f),B.a5.Z3(m,null),null),$async$zP)
 case 7:l=a6
 if(l.b===200){A.aIY(l)
 f=l
