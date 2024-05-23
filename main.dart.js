@@ -52039,7 +52039,7 @@ else a0=A.mr("https",a,a3,null)
 a0=A.mr("https",a,a3,null)
 p=4
 f=t.N
-m=A.aG(["email",a2,"password",a4],f,f)
+m=A.aG(["codigo",a2,"password",a4],f,f)
 s=7
 return A.S(n.a.ve("POST",a0,A.aG(["Content-Type","application/json"],f,f),B.a5.Z3(m,null),null),$async$zP)
 case 7:l=a6
@@ -52073,7 +52073,7 @@ s=1
 break}else{if(l.b===500||l.b===400){f=l
 i=B.a5.ct(0,A.mx(J.aM(A.mt(f.e).c.a,"charset")).ct(0,f.w))
 h=J.cI(J.aM(i,"message"))
-if(J.aZD(h,"Key: 'LoginUser.Email'"))h="Email no valido, verifique: que sea un EMAIL VALIDO y/o no tenga espacio en blanco"
+if(J.aZD(h,"Key: 'LoginUser.Codigo'"))h="Usuario no valido, verifique: que sea un USUARIO VALIDO y/o no tenga espacio en blanco"
 $.aIC().k5(B.at,h)
 f=h
 throw A.c(new A.Xh(f))}$.aIC().k5(B.h2,"Error en la Desconocido ")
@@ -53830,7 +53830,7 @@ return A.oF(s,s,s,s).fx}}
 A.akl.prototype={
 $2(a,b){var s,r=this,q=null
 if(b instanceof A.jh){s=r.a.a
-return A.aRl(A.f0(A.a([A.cO(A.bk(B.BJ,A.aU(B.c.d9(b.b),2,B.b5,q,r.c.p3.Q.eX(B.ak),q,q),B.j,q,q,q,q,q,q,B.cv,q,q,q),q,s),new A.bQ(B.fN,new A.yi(new A.akk(r.b,r.d),B.Kr,q,t.SI),q),B.bv],t.p),B.nE,B.dy,B.y,q))}else return B.ag},
+return A.aRl(A.f0(A.a([A.cO(A.bk(B.BJ,A.aU(B.c.d9(b.b),2,B.b5,q,r.c.p3.Q.eX(B.ak),q,q),B.j,q,q,q,q,q,q,B.cv,q,q,q),q,s),new A.bQ(B.fN,new A.yi(new A.akk(r.b,r.d),B.Kq,q,t.SI),q),B.bv],t.p),B.nE,B.dy,B.y,q))}else return B.ag},
 $S:623}
 A.akk.prototype={
 $1(a){return A.a([new A.Fy(new A.akj(this.a,a,this.b),B.AT,null,t.cy)],t.t5)},
@@ -58395,7 +58395,7 @@ this.a.toString
 s.push(B.Eu)
 s.push(B.Em)
 return s},
-aih(a,b){return new A.QT(B.Kq,b,B.a12,null)},
+aih(a,b){return new A.QT(B.Kp,b,B.a12,null)},
 aiW(a,b){var s,r,q,p,o,n,m,l,k=this,j=null
 k.a.toString
 s=A.cv(a,B.m6)
@@ -106867,9 +106867,9 @@ B.Km=new A.ct(null,null,null,null,null,B.l,null,null)
 B.EY=new A.l(3638415635)
 B.Kn=new A.ct(24,null,null,null,null,B.EY,null,null)
 B.K8=new A.ee(58727,"MaterialIcons",null,!1)
-B.Kq=new A.ly(B.K8,null,null,null,null)
+B.Kp=new A.ly(B.K8,null,null,null,null)
 B.K9=new A.ee(60981,"MaterialIcons",null,!1)
-B.Kr=new A.ly(B.K9,null,null,null,null)
+B.Kq=new A.ly(B.K9,null,null,null,null)
 B.K5=new A.ee(57496,"MaterialIcons",null,!1)
 B.Ks=new A.ly(B.K5,null,null,null,null)
 B.Kd=new A.ee(61534,"MaterialIcons",null,!1)
@@ -106889,9 +106889,9 @@ B.Py=new A.d3([100,B.HA,200,B.Hu,400,B.Hr,700,B.Ho],t.pl)
 B.v2=new A.St(B.Py,4294956864)
 B.Ko=new A.ly(B.K6,null,B.v2,null,null)
 B.KE=new A.tm(B.Ko,null,null,"Password",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.Kj=new A.ee(63656,"MaterialIcons",null,!1)
-B.Kp=new A.ly(B.Kj,null,B.v2,null,null)
-B.KF=new A.tm(B.Kp,null,null,"Email ",null,null,null,null,null,"Email del Usuario ",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.Ki=new A.ee(62589,"MaterialIcons",null,!1)
+B.Kr=new A.ly(B.Ki,null,B.v2,null,null)
+B.KF=new A.tm(B.Kr,null,null,"Usuario",null,null,null,null,null,"Usuario ",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.KG=new A.tm(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.KK=new A.dM(0,0.1,B.M)
 B.oq=new A.dM(0,0.25,B.M)
@@ -107080,8 +107080,8 @@ B.Kh=new A.ee(62192,"MaterialIcons",null,!1)
 B.Q1=new A.nh(B.Kh,3,"estadoDeLaDeuda")
 B.Kg=new A.ee(62191,"MaterialIcons",null,!1)
 B.PZ=new A.nh(B.Kg,4,"estadoGeneral")
-B.Ki=new A.ee(63262,"MaterialIcons",null,!1)
-B.Q2=new A.nh(B.Ki,5,"salir")
+B.Kj=new A.ee(63262,"MaterialIcons",null,!1)
+B.Q2=new A.nh(B.Kj,5,"salir")
 B.M0=A.a(s([B.Q0,B.Q_,B.Q3,B.Q1,B.PZ,B.Q2]),A.a6("w<nh>"))
 B.M1=A.a(s(["AM","PM"]),t.s)
 B.Ir=new A.cV(B.AY,"CXC todos Los Clientes.",!1)
